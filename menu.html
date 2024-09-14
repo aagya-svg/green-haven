@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu – Green Haven Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F4F4;
+            color: #333;
+        }
+        header {
+            background-color: #9CB59C; /* Sage green */
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 40px 20px;
+            background-color: #F8F8F8;
+        }
+        #menu {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+            padding: 40px;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+        }
+        #menu h1 {
+            color: #FFF;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+        }
+        #menu p {
+            font-size: 1.5em;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: justify;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        .menu-item {
+            margin-bottom: 50px;
+        }
+        .menu-item img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .menu-item h2 {
+            font-size: 24px;
+            color: #FFF;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        .menu-item p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 600px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            background-color: #517657; /* Dark sage green */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="menu">
+        <h1>Our Menu</h1>
+        <p>Discover our delicious offerings that will surely make your mouth water!</p>
+        <div class="menu-item">
+            <img src="momo.jpg" alt="Veg-Momo">
+            <h2>Veg-Momo</h2>
+            <p>Delight in our Veg Momo, a popular Nepali delicacy featuring steamed dumplings filled with a savory mix of finely chopped vegetables and aromatic spices. Each bite offers a burst of flavor, wrapped in a tender, delicately steamed dough. Perfectly paired with a spicy dipping sauce, these momos are a must-try for anyone seeking an authentic taste of Nepal.</p>
+        </div>
+        <div class="menu-item">
+            <img src="dosa.jpg" alt="Masala Dosa">
+            <h2>Masala Dosa</h2>
+            <p>A crispy, golden-brown crepe made from fermented rice and lentil batter, filled with a savory spiced potato mixture. Served with coconut chutney and tangy sambar, Masala Dosa is a beloved South Indian classic that combines rich flavors and delightful textures in every bite.</p>
+        </div>
+        <div class="menu-item">
+            <img src="panipuri.jpg" alt="Pani Puri">
+            <h2>Pani Puri</h2>
+            <p>Pani Puri features crisp, hollow puris filled with a spicy mix of tamarind water, tangy chutneys, and a medley of flavors including chickpeas, potatoes, and onions. Served in bite-sized portions, each puri bursts with a delightful blend of tangy, spicy, and savory tastes.</p>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Green Haven Restaurant. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
